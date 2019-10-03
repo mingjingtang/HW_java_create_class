@@ -6,6 +6,7 @@ public class Animal {
     private int topSpeed;
     private String isEndangered;
     private String name;
+    private String sound;
 
     Animal(int numberOfLegs, String type){
         this.numberOfLegs = numberOfLegs;
@@ -62,5 +63,10 @@ public class Animal {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public String sound(String sound){
+        this.sound = sound;
+        return sound;
     }
 }

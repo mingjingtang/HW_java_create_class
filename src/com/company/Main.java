@@ -18,6 +18,7 @@ public class Main {
         animal2.setTopSpeed(100);
         System.out.println("Top speed of "+ animal2.getName() + " is "+ animal2.getTopSpeed());
 
+        System.out.println("The sound of " + animal2.getName()+ " is " + animal2.sound("zizziiii"));
 
     }
 }
